@@ -1,6 +1,6 @@
 <?php
 $db = 'mysql:host=localhost;dbname=onlinenot';
-$username = 'root';
+$username = '';
 $password = '';
 $options = array(
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
