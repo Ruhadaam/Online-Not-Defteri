@@ -1,0 +1,55 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.blur-card
+{
+    background:rgba(0,0,0,0.3) !important;
+    backdrop-filter:blur(10px);
+	transition: transform 0.2s;
+   
+}
+
+
+.shadow-card
+{
+    background:rgba(0,0,0,0.1) !important;
+    backdrop-filter:blur(10px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	transition: transform 0.2s;
+}
+.icon-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+
+  .icon {
+	font-size: 55px; /* İkon boyutunu istediğiniz değere ayarlayın */
+  }
+  
+.scale
+{
+	transition: transform 0.2s;
+}
+.scale:hover
+{
+	transform: translateY(-10px);
+}
+
